@@ -1,0 +1,21 @@
+{
+    "name": "root/api",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/",
+            "ORM\\":"orm/"
+        },
+        "files": ["src/helpers.php"]
+    },
+    "authors": [
+        {
+            "name": "Esteban Adarme",
+            "email": "estebanadsa@gmail.com"
+        }
+    ],
+    "require": {
+        "bramus/router": "^1.6",
+        "larapack/dd": "^1.1",
+        "vlucas/phpdotenv": "^5.5"
+    }
+}
